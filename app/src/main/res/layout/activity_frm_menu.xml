@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="#F7F9F4">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐾 MI MASCOTA SEGURA"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#2E5D34"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- BIENVENIDA -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido!"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+
+        <!-- MIS MASCOTAS -->
+        <Button
+            android:id="@+id/btnMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#2E7D32"
+            android:onClick="btnMascotas"
+            android:text="🐶  MIS MASCOTAS"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- HISTORIAL DE SALUD -->
+        <Button
+            android:id="@+id/btnSalud"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#43A047"
+            android:onClick="btnSalud"
+            android:text="🩺  HISTORIAL DE SALUD"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- RECORDATORIOS -->
+        <Button
+            android:id="@+id/btnRecordatorios"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#66BB6A"
+            android:onClick="btnRecordatorios"
+            android:text="🔔  RECORDATORIOS"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- COMUNIDAD -->
+        <Button
+            android:id="@+id/btnComunidad"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#81C784"
+            android:onClick="btnComunidad"
+            android:text="👥  COMUNIDAD"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- PERFIL -->
+        <Button
+            android:id="@+id/btnPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#1B5E20"
+            android:onClick="btnPerfil"
+            android:text="👤  MI PERFIL"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- SALIR -->
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#B71C1C"
+            android:onClick="btnSalir"
+            android:text="🚪  SALIR"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
