@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="671dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="26dp">
+
+        <Button
+            android:id="@+id/btnPropietarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Propietarios" />
+
+        <Button
+            android:id="@+id/btnMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mascotas" />
+
+        <Button
+            android:id="@+id/btnSalud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salud" />
+
+        <Button
+            android:id="@+id/btnPublicaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Publicaciones" />
+
+        <Button
+            android:id="@+id/btnAlertas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alertas" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
